@@ -1,0 +1,24 @@
+<div class="container my-3">
+    <h2>Contact Me</h2>
+    <form>
+        <p class="text-danger">{{ message }}</p>
+        <div class="mb-3">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name">
+        </div>
+        <div class="mb-3">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="mb-3">
+            <label for="phone">Phone Number (with country code)</label>
+            <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
+        <div class="mb-3">
+            <label for="message">Message</label>
+            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Describe your concern"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary" id="submitBtn">Submit</button>
+    </form>
+</div>
